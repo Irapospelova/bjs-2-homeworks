@@ -47,7 +47,7 @@ describe('Домашнее задание к лекции 5 «Классы»', (
     });
     
     it('создание объекта Book', () => {
-      printItem = new Book('А. Сапковский', 'Меч Предназначения', 1992, 384);
+      printItem = new Book('А. Сапковский', 'Меч Предназначения', 1992, 384 );
       expect(printItem.author).toEqual('А. Сапковский');
       expect(printItem.name).toEqual('Меч Предназначения');
       expect(printItem.releaseDate).toEqual(1992);
